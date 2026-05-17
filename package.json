@@ -50,7 +50,7 @@
     "@tanstack/react-router": "^1.168.25",
     "@tanstack/react-start": "^1.168.6",
     "@tanstack/router-plugin": "^1.168.6",
-    "@tanstack/start": "^1.114.5",
+    "@tanstack/start": "^1.111.9",
     "@tanstack/start-plugin-core": "^1.170.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -94,7 +94,6 @@
   },
   "sideEffects": false,
   "optionalDependencies": {
-  "@rollup/rollup-linux-x64-gnu": "^4.0.0"
+    "@rollup/rollup-linux-x64-gnu": "^4.0.0"
+  }
 }
-}
-
