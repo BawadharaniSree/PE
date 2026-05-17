@@ -95,5 +95,10 @@
   "sideEffects": false,
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.0.0"
-  }
+  },
+  "scripts": {
+  "dev": "vite dev",
+  "build": "vite build",
+  "start": "node .output/server/index.mjs"
+}
 }
