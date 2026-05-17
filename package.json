@@ -92,9 +92,9 @@
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
   },
-  "sideEffects": false
-}
-
-"optionalDependencies": {
+  "sideEffects": false,
+  "optionalDependencies": {
   "@rollup/rollup-linux-x64-gnu": "^4.0.0"
 }
+}
+
