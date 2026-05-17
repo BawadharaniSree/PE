@@ -9,8 +9,8 @@
   "main": "eslint.config.js",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build --ssrManifest false",
-    "start": "serve dist/client"
+    "build": "vite build",
+    "start": "serve -s dist/client -l 10000"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
