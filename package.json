@@ -9,8 +9,8 @@
   "main": "eslint.config.js",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "start": "HOST=0.0.0.0 PORT=10000 node dist/server/index.js"
+    "build": "vite build --ssrManifest false",
+    "start": "serve dist/client"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
@@ -64,6 +64,7 @@
     "react-hook-form": "^7.71.2",
     "react-resizable-panels": "^4.6.5",
     "recharts": "^2.15.4",
+    "serve": "^14.2.6",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.1",
@@ -93,10 +94,5 @@
   "sideEffects": false,
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.0.0"
-  },
-"scripts": {
-  "dev": "vite dev",
-  "build": "vite build --ssrManifest false",
-  "start": "serve dist/client"
-}
+  }
 }
