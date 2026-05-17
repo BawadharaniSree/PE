@@ -8,9 +8,9 @@
   "type": "module",
   "main": "eslint.config.js",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite",
     "build": "vite build",
-    "start": "serve -s dist/client -l 10000"
+    "start": "serve -s dist -l 10000"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",
@@ -79,7 +79,7 @@
     "@types/node": "^22.16.5",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
-    "@vitejs/plugin-react": "^5.0.4",
+    "@vitejs/plugin-react": "^5.2.0",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.6",
@@ -94,5 +94,10 @@
   "sideEffects": false,
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.0.0"
-  }
+  },
+  "scripts": {
+  "dev": "vite dev",
+  "build": "vite build",
+  "start": "vite preview"
+}
 }
