@@ -2,8 +2,8 @@ import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 import { supabaseAdmin } from "@/integrations/supabase/client.server";
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "";
-
+//const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "";
+const ADMIN_PASSWORD = "svce-ece-2026";
 if (!ADMIN_PASSWORD) {
   throw new Error("ADMIN_PASSWORD environment variable is not set");
 }

@@ -34,3 +34,5 @@ dist-ssr
 
 .env
 .vite
+
+package-lock.json
